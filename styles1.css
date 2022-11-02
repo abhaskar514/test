@@ -1,5 +1,5 @@
 body{
-    background-color:black;
+    background-image: url('eclipse-2126672.jpg');
     height:100vh;
     background-size:cover;
     position:relative;
@@ -12,6 +12,9 @@ p{
     padding-top: 100px;
     padding-inline-start: 120px;
     padding-inline-end: 120px;
+    text-shadow: 1px;
+    font-family: cursive;
+    font-style: italic;
 }
 h1{
     color: rgb(227, 235, 138);
@@ -28,13 +31,13 @@ h1{
     border:2px solid transparent;
     border-radius: 30px;  
     border-color: red; 
-    padding: 10px 25px;
+   padding: 10px 25px;
     text-decoration: none;
     transition: transform .4s;
     font-weight: bold;
 }
 .bck:hover{
-    color:green;
+    color: rgb(255, 217, 0, 0.879);
     transform: scale(1.2);
 
 }
